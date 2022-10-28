@@ -1,4 +1,4 @@
-const fs = require("fs");
+import fs from 'fs';
 
 //Manera de hacer lo del file con writeFile
 /* fs.writeFile(`tabla-${base}.txt`, salida, (error) => {
@@ -34,6 +34,6 @@ const crearArchivo = async (base, hasta, listar) => {
 	}
 };
 
-module.exports = {
+export {
 	crearArchivo
 }

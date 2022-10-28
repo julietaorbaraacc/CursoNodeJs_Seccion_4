@@ -1,6 +1,6 @@
-const { crearArchivo } = require("./helpers/multiplicar");
-const argv = require("./config/yargs");
-require("./config/colors");
+import { crearArchivo } from './helpers/multiplicar.js';
+import { argv } from './config/yargs.js';
+import colors from 'colors';
 
 console.clear();
 
